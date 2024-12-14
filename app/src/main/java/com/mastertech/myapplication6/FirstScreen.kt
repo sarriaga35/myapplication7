@@ -10,5 +10,5 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 fun FirstScreen (viewModel: FirstViewModel) {
     viewModel.observeLifecycleEvents(lifecycle = LocalLifecycleOwner.current.lifecycle)
 
-Text(text = "Hola Sebas")
+Text(text = "Hola Mayra")
 }
